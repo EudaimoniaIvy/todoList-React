@@ -1,0 +1,44 @@
+body {
+    background: #fff;
+}
+
+.btn {
+    display: inline-block;
+    padding:4px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    box-shadow: inset 0 1px 0;
+    border-radius: 4px;
+}
+
+/* a:link、a:visited、a:hover、a:active(“爱恨原则”（LoVe/HAte）) */
+.btn-danger {
+    color:  #fff;
+    background-color: #da4f49;
+    border: 1px solid #ae1711
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn-danger:hover {
+    color: #fff;
+    background-color: #ae1711;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+/* width | style | color */
+.container .wrap {
+    padding: 10px;
+    border:1px solid #ddd;
+    border-radius: 5px;
+}
